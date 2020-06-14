@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<?php 
-$x = "Hello world!";
-$y = 'Hello world!';
-
-echo $x;
-echo "<br>"; 
-echo $y;
+<pre>
+<?php
+print "php page";
+print `ifconfig`;
 ?>
-
-</body>
-</html>
-
+</pre>
